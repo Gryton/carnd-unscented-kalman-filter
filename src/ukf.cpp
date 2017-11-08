@@ -29,7 +29,7 @@ UKF::UKF() {
 	  -0.0020, 0.0060, 0.0008, 0.0100, 0.0123;
 
   // Process noise standard deviation longitudinal acceleration in m/s^2
-  std_a_ = 5;
+  std_a_ = 6;
 
   // Process noise standard deviation yaw acceleration in rad/s^2
   std_yawdd_ = 1;
